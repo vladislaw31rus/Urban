@@ -10,5 +10,3 @@ while i < len(my_list):
         print(my_list[i])
         i = i + 1
     continue
-
-
