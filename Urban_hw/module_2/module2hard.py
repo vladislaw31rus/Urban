@@ -11,8 +11,8 @@ for j in range(x):  #выбор первого числа пары
     k = a
     for k in range(x):  #выбор второго числа пары
         b = array_[k]
-        if (a + b) > x or a == b or a > b:  # исключение реркальных дублей, пропуск пары, если их сумма больше введенного числа
+        if (a + b) > x or a == b or a > b:  # исключение зеркальных дублей, пропуск пары, если их сумма больше введенного числа
             continue
         elif x % (a + b) == 0:  # проверка кратности числа
             password.append(str(a) + str(b))
-result= print("".join(password))
+print('ваш пароль: ',"".join(password))
