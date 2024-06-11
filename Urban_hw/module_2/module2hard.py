@@ -15,4 +15,4 @@ for j in range(x):  #выбор первого числа пары
             continue
         elif x % (a + b) == 0:  # проверка кратности числа
             password.append(str(a) + str(b))
-print('ваш пароль: ',"".join(password))
+print("ваш пароль: ","".join(password))
