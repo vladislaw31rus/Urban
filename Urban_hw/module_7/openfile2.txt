@@ -1,0 +1,3 @@
+test  write
+test  append
+test  append2
